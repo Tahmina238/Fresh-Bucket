@@ -1,0 +1,83 @@
+[
+    {
+        "img": "https://i.imgur.com/SwT9Lhg.png",
+        "id": 1,
+        "title": "Free Delivery",
+        "price": "From $99",
+        "rating": 4.5,
+        "discountPercentage": 10,
+        "discountPrice": 45.00
+    },
+    {
+        "img": "https://i.imgur.com/yyxMdER.png",
+        "id": 2,
+        "title": "Free Delivery",
+        "price": "From $99",
+        "rating": 4.5,
+        "discountPercentage": 10,
+        "discountPrice": 45.00
+    },
+    {
+        "img": "https://i.imgur.com/rFOJMPS.png",
+        "id": 3,
+        "title": "Free Delivery",
+        "price": "From $99",
+        "rating": 4.5,
+        "discountPercentage": 10,
+        "discountPrice": 45.00
+    },
+    {
+        "img": "https://i.imgur.com/klYEACy.png",
+        "id": 4,
+        "title": "Free Delivery",
+        "price": "From $99",
+        "rating": 4.5,
+        "discountPercentage": 10,
+        "discountPrice": 45.00
+    },
+    {
+        "img": "https://i.imgur.com/TdwicAj.png",
+        "id": 5,
+        "title": "Free Delivery",
+        "price": "From $99",
+        "rating": 4.5,
+        "discountPercentage": 10,
+        "discountPrice": 45.00
+    },
+    {
+        "img": "https: //i.imgur.com/YkhM4GR.png",
+        "id": 6,
+        "title": "Free Delivery",
+        "price": "From $99",
+        "rating": 4.5,
+        "discountPercentage": 10,
+        "discountPrice": 45.00
+    },
+    {
+        "img": "https: //i.imgur.com/egi9zU5.png",
+        "id": 7,
+        "title": "Free Delivery",
+        "price": "From $99",
+        "rating": 4.5,
+        "discountPercentage": 10,
+        "discountPrice": 45.00
+    },
+    {
+        "img": "https://i.imgur.com/jAxrlBq.png",
+        "id": 8,
+        "title": "Free Delivery",
+        "price": "From $99",
+        "rating": 4.5,
+        "discountPercentage": 10,
+        "discountPrice": 45.00
+    },
+    {
+        "img": "https://i.imgur.com/Xyg3sZ8.png",
+        "id": 9,
+        "title": "Free Delivery",
+        "price": "From $99",
+        "rating": 4.5,
+        "discountPercentage": 10,
+        "discountPrice": 45.00
+    }
+]

@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+/* header {
+  background-color: aquamarine;
+  width: 1440px;
+  height: 100vh;
+} */
+
+/* .container {
+  width: 1200px;
+  height: 100vh;
+  margin: 0 auto;
+  .header {
+    background-color: rgb(224, 138, 33);
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .navbar {
+    width: 100%;
+    gap: 20px;
+  }
+  .list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .body-container {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 20%;
+  }
+  .banner {
+    height: 30vh;
+  }
+}
+.footer {
+  background-color: rgb(158, 155, 155);
+  color: white;
+  width: 100%;
+  height: 30vh;
+  border-radius: 10px;
+}
+ */

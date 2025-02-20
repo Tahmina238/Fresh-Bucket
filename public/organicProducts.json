@@ -1,0 +1,46 @@
+[
+    {
+        "img": "https://i.imgur.com/rFOJMPS.png",
+        "id": 1,
+        "title": "Free Delivery",
+        "price": "From $99",
+        "rating": 4.5,
+        "discountPercentage": 10,
+        "discountPrice": 45.00
+    },
+    {
+        "img": 2,
+        "title": "Free Delivery",
+        "price": "From $99",
+        "rating": 4.5,
+        "discountPercentage": 10,
+        "discountPrice": 45.00
+    },
+    {
+        "img": "https://i.imgur.com/klYEACy.png",
+        "id": 3,
+        "title": "Free Delivery",
+        "price": "From $99",
+        "rating": 4.5,
+        "discountPercentage": 10,
+        "discountPrice": 45.00
+    },
+    {
+        "img": "https://i.imgur.com/u0KdVfA.png",
+        "id": 4,
+        "title": "Free Delivery",
+        "price": "From $99",
+        "rating": 4.5,
+        "discountPercentage": 10,
+        "discountPrice": 45.00
+    },
+    {
+        "img": "src/assets/images/FeaturesImg/featuresImg1.png",
+        "id": 5,
+        "title": "Free Delivery",
+        "price": "From $99",
+        "rating": 4.5,
+        "discountPercentage": 10,
+        "discountPrice": 45.00
+    }
+]

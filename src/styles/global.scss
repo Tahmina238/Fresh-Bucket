@@ -1,0 +1,35 @@
+*,
+::after::before {
+  margin: 0 auto;
+  padding: 0 auto;
+  box-sizing: border-box;
+}
+:root {
+  --header: rgb(246, 207, 177);
+  --sidebar: rgb(249, 232, 219);
+  --cyan: white;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  max-width: 100vw;
+  scroll-behavior: smooth;
+  margin: 0;
+}
+
+.container {
+  background-color: #efedea;
+  max-width: 1940px;
+  height: 100vh;
+  border-radius: 8px;
+  margin: auto;
+}
+
+//components
+@import "./navbar";
+@import "./hero";
+@import "./features";
+@import "./ourOrganic";
+@import "./bestOrganic";
+@import "./badgeCard";
