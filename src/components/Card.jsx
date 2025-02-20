@@ -26,7 +26,7 @@ const Card = ({ backgroundColor, icon, title, description, imageSrc }) => {
           <hr />
           <br />
           <div className="flex align-center justify-between">
-            <p className="text-green-400 text-xl text-base">{description}</p>
+            <p className="text-green-400 text-xl ">{description}</p>
           </div>
           <div className="px-6 py-4 flex justify-between items-center">
             {/* Button */}

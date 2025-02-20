@@ -1,5 +1,6 @@
 import { GiStarShuriken } from "react-icons/gi";
 
+// eslint-disable-next-line react/prop-types
 const ConsciousItem = ({ images, title }) => {
   return (
     <div className="flex items-center gap-2">
