@@ -78,17 +78,17 @@ const OurOrganicProducts = () => {
       : organicItems.filter((item) => item.category === selectedCategory);
 
   return (
-    <div className="w-full   h-[75vh] bg-black text-white px-8 ">
-      <div className="w-[80%] mx-auto my-4">
+    <div className="w-full    bg-black text-white px-8 ">
+      <div className="w-[80%] mx-auto my-2">
         {/* Title */}
         <p className="flex items-center gap-2 mt-4 text-lg">
           <GiStarShuriken /> Fresh From Our Farm <GiStarShuriken />
         </p>
 
         {/* Heading & Filter Options */}
-        <div className="flex flex-col  md:flex-row justify-between items-center  gap-6">
-          <p className="text-4xl font-bold">Our Organic Products</p>
-          <div className="flex  mr-16 gap-10 py-2 px-14 bg-white rounded-xl text-xl text-green-700">
+        <div className="flex flex-col  md:flex-row justify-between items-center ">
+          <p className="text-2xl font-bold">Our Organic Products</p>
+          <div className="flex  mr-20 gap-6 px-4 bg-white rounded-xl  text-green-700">
             {["All", "Vegetable", "Fruit", "Bread"].map((category) => (
               <p
                 key={category}
@@ -106,8 +106,8 @@ const OurOrganicProducts = () => {
         </div>
 
         {/* Product Grid */}
-        <div className="flex flex-col lg:flex-row justify-between  mt-10 gap-8">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 w-full">
+        <div className="flex flex-col lg:flex-row justify-between ">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 ">
             {filteredProducts.map((item, index) => (
               <OrganicProductCard
                 key={index}
@@ -122,7 +122,7 @@ const OurOrganicProducts = () => {
           {/* Side Image */}
           <div className="hidden lg:block">
             <img
-              className="h-[50vh] mt-6 ml-20 mr-80"
+              className="h-[50vh] mt-6 mr-20"
               src="src/assets/images/OrganicImg/vgcard.png"
               alt="Vegetable Card"
             />
@@ -130,8 +130,8 @@ const OurOrganicProducts = () => {
         </div>
 
         {/* View More Button */}
-        <div className="flex justify-center mt-6">
-          <button className="bg-emerald-500 text-white p-2 mb-10 rounded-lg text-lg hover:bg-emerald-600 transition">
+        <div className="flex justify-center mt-2">
+          <button className="bg-emerald-500 text-white  mb-10 rounded-lg  hover:bg-emerald-600 transition">
             View More
           </button>
         </div>

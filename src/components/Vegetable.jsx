@@ -3,7 +3,7 @@ const Vegetable = () => {
     <div className=" w-[80%] mx-auto gap-8 grid grid-cols-1 lg:grid-cols-2  mb-0  mt-8">
       <div className="relative h-[370px]  ">
         <img
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover rounded-xl"
           src="src/assets/images/OrganicImg/vegetableimg/card1.png"
           alt=""
         />
@@ -26,7 +26,7 @@ const Vegetable = () => {
           <button className=" mt-8 p-2 rounded bg-amber-600">Shop Now</button>
         </div>
         <img
-          className=" w-full h-full object-cover"
+          className=" w-full h-full object-cover rounded-xl"
           src="src/assets/images/OrganicImg/vegetableimg/card2.png"
           alt=""
         />

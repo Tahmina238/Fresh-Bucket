@@ -3,7 +3,7 @@ const Card = ({ backgroundColor, icon, title, description, imageSrc }) => {
   return (
     <div className="max-w-sm rounded relative overflow-hidden shadow-lg mb-4 bg-emerald-50">
       {/* Round Image */}
-      <div className="absolute top-10 w-12 rounded-r-full bg-green-400 text-white text-center ">
+      <div className="absolute top-10 w-10 rounded-r-full bg-green-400 text-white text-center ">
         15%
       </div>
       <img
@@ -13,14 +13,14 @@ const Card = ({ backgroundColor, icon, title, description, imageSrc }) => {
       />
       {icon}
 
-      <div className="px-2 py-8">
+      <div className="px- py-">
         {/* Title */}
         <h2 className="text-xl font-semibold text-gray-800">
           {backgroundColor}
         </h2>
 
-        <div className="px-2 gap-2 py-8">
-          S{/* Title */}
+        <div className="px-2 gap-2 py-">
+          {/* Title */}
           <p className="text-md font-semibold text-gray-800">{title}</p>
           {/* Description */}
           <hr />

@@ -1,38 +1,3 @@
-// import { CgProfile } from "react-icons/cg";
-
-// const LandingPage = () => {
-//   return (
-//     <div className="w-full bg-black h-20  text-white">
-//       <div className="  md:w-[90%] m-6  flex  align-center justify-between p-6 ">
-//         <img className="pl-40 " src="src/assets/images/heading.png" alt="" />
-
-//         <div className="flex flex-col lg:flex-row align-center justify-between gap-10">
-//           <list>Home</list>
-//           <list>Product</list>
-//           <list>Portfolio</list>
-//           <list>Pages</list>
-//           <list>Contact</list>
-//         </div>
-//         <div className=" mr-60 flex gap-6">
-//           <div className="">
-//             <input
-//               className="w-70 rounded bg-white"
-//               type="text"
-//               placeholder="search"
-//             />
-//           </div>
-//           <div>
-//             <p className="">
-//               <CgProfile />
-//             </p>
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default LandingPage;
 import { CgProfile } from "react-icons/cg";
 
 const LandingPage = () => {

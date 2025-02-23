@@ -1,7 +1,7 @@
-// eslint-disable-next-line no-unused-vars
+// eslint-disable-next-line no-unused-vars, react/prop-types
 const Footer = ({ image, title, subtitle, details, price, rating }) => {
   return (
-    <div className="lg:w-full mt-4 bg-black text-white border-t">
+    <div className="lg:w-full  mt-4 bg-black text-white border-t">
       <div className="max-w-screen-xl mx-auto py-10 px-4">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-10">
           {/* Footer Left */}
@@ -18,21 +18,21 @@ const Footer = ({ image, title, subtitle, details, price, rating }) => {
                 <br />
                 Looking at its layout:
               </p>
-              <p className="text-2xl mb-4">
+              <p className="text-xl mb-4">
                 Follow us:
                 <i className="text-white ml-2 fab fa-facebook"></i>
                 <i className="text-white ml-2 fab fa-twitter"></i>
                 <i className="text-white ml-2 fab fa-instagram"></i>
               </p>
-              <p className="text-lg">
+              <p className="">
                 2025© All rights reserved design by techserve4u
               </p>
             </div>
           </div>
 
           {/* Footer Middle */}
-          <div className="flex flex-col md:w-1/4 text-lg md:text-2xl">
-            <p className="text-3xl mb-6">Categories</p>
+          <div className="flex flex-col md:w-1/4 text-lg ml-10 md:text-xl">
+            <p className="text-xl mb-6">Categories</p>
             <a
               href="/about-us"
               className="mb-4 hover:text-green-500 cursor-pointer"
@@ -54,16 +54,16 @@ const Footer = ({ image, title, subtitle, details, price, rating }) => {
           </div>
 
           {/* Footer Right */}
-          <div className="flex flex-col md:w-1/4 text-lg md:text-2xl">
-            <p className="text-3xl mb-6">My Account</p>
+          <div className="flex flex-col md:w-1/4 text-lg md:text-xl">
+            <p className="text-xl mb-6">My Account</p>
             <p className="mb-4">Support</p>
             <p className="mb-4">Your Quotes</p>
             <p className="mb-4">Track Your Order</p>
           </div>
 
           {/* Footer Extra */}
-          <div className="flex flex-col md:w-1/4 text-lg md:text-2xl">
-            <p className="text-3xl mb-6">Contact</p>
+          <div className="flex flex-col md:w-1/4 text-lg md:text-xl">
+            <p className="text-xl mb-6">Contact</p>
             <p className="mb-4">Email</p>
             <p className="mb-4">Phone</p>
             <p className="mb-4">Address</p>

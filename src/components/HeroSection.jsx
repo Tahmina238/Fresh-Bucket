@@ -1,8 +1,8 @@
 const HeroSection = () => {
   return (
-    <div className="w-full flex flex-col-reverse md:flex-row items-center justify-between bg-orange-100 py-10">
+    <div className="w-full flex flex-col-reverse md:flex-row items-center justify-between bg-orange-100 py-10 pl-30">
       {/* Text Section */}
-      <div className="max-w-[90%] md:max-w-[50%] mx-auto text-center md:text-left">
+      <div className="max-w-[80%] md:max-w-[50%] mx-auto text-center md:text-left">
         <h1 className="text-xl md:text-3xl font-black">
           A Sustainable life with <br />
           Fresh Fruits, Vegetables <br />
