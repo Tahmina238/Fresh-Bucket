@@ -1,15 +1,11 @@
 import { CgProfile } from "react-icons/cg";
-
+import navIcon from "../assets/images/navIcon/heading.png";
 const LandingPage = () => {
   return (
     <div className="w-full bg-black h-20 text-white">
       <div className="max-w-[90%] mx-auto flex items-center justify-between p-4">
         {/* Logo */}
-        <img
-          className="pl-4 w-32 md:w-40"
-          src="src/assets/images/heading.png"
-          alt="Logo"
-        />
+        <img className="pl-4 w-32 md:w-40" src={navIcon} alt="Logo" />
 
         {/* Navigation (Hidden on small screens, shown on large screens) */}
         <nav className="hidden lg:flex items-center gap-10">

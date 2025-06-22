@@ -1,10 +1,13 @@
+import card1 from "../assets/images/vegetableimg/card1.png";
+import card2 from "../assets/images/vegetableimg/card2.png";
+
 const Vegetable = () => {
   return (
     <div className=" w-[80%] mx-auto gap-8 grid grid-cols-1 lg:grid-cols-2  mb-0  mt-8">
       <div className="relative h-[370px]  ">
         <img
           className="w-full h-full object-cover rounded-xl"
-          src="src/assets/images/OrganicImg/vegetableimg/card1.png"
+          src={card1}
           alt=""
         />
 
@@ -27,7 +30,7 @@ const Vegetable = () => {
         </div>
         <img
           className=" w-full h-full object-cover rounded-xl"
-          src="src/assets/images/OrganicImg/vegetableimg/card2.png"
+          src={card2}
           alt=""
         />
       </div>

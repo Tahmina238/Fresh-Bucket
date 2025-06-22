@@ -1,4 +1,4 @@
-// eslint-disable-next-line no-unused-vars, react/prop-types
+import vege from "../assets/images/footer/vege.png"; // eslint-disable-next-line no-unused-vars, react/prop-types
 const Footer = ({ image, title, subtitle, details, price, rating }) => {
   return (
     <div className="lg:w-full  mt-4 bg-black text-white border-t">
@@ -6,11 +6,7 @@ const Footer = ({ image, title, subtitle, details, price, rating }) => {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-10">
           {/* Footer Left */}
           <div className="flex flex-col items-start w-full md:w-1/4">
-            <img
-              className="mb-10 w-1/2"
-              src={"src/assets/images/concious/footer/vege.png"}
-              alt="Footer Vegetable"
-            />
+            <img className="mb-10 w-1/2" src={vege} alt="Footer Vegetable" />
             <div>
               <p className="text-lg mb-4">
                 The titles are organized to emphasize <br />

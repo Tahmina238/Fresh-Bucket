@@ -1,5 +1,8 @@
 // /* eslint-disable no-unused-vars */
 import { GiStarShuriken } from "react-icons/gi";
+import plate from "../assets/images/international/plate.png";
+import cherryTomato from "../assets/images/international/cherryTomato.png";
+import salad from "../assets/images/international/salad.png";
 
 // eslint-disable-next-line react/prop-types, no-unused-vars
 const International = ({ title, subtitle, details }) => {
@@ -8,17 +11,13 @@ const International = ({ title, subtitle, details }) => {
       <div className=" flex align-center justify-between w-[80%] h-[auto] m-auto border rounded-xl bg-green-500">
         <img
           className="relative w-[50vh] h-[40vh] m-6 pl-20 "
-          src="src/assets/images/international/plate.png"
+          src={plate}
           alt="plate"
         />
-        <img
-          className="absolute w-54 h-34 "
-          src="src/assets/images/international/cherryTomato.png"
-          alt="cherry"
-        />
+        <img className="absolute w-54 h-34 " src={cherryTomato} alt="cherry" />
         <img
           className=" absolute w-34 h-34 mt-50 ml-10"
-          src="src/assets/images/international/salad.png"
+          src={salad}
           alt="salad"
         />
         <div className="m-0 pr-6 column justify-between mt-4">

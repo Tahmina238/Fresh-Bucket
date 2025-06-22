@@ -1,3 +1,4 @@
+import bannerImg from "../assets/images/bucket.png";
 const HeroSection = () => {
   return (
     <div className="w-full flex flex-col-reverse md:flex-row items-center justify-between bg-orange-100 py-10 pl-30">
@@ -24,11 +25,7 @@ const HeroSection = () => {
 
       {/* Image Section */}
       <div className="w-full md:w-[50%] flex justify-center">
-        <img
-          className="w-[70%] md:w-[55%]"
-          src="src/assets/images/bucket.png"
-          alt="Fresh Foods"
-        />
+        <img className="w-[70%] md:w-[55%]" src={bannerImg} alt="Fresh Foods" />
       </div>
     </div>
   );

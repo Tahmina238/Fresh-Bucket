@@ -1,4 +1,12 @@
 import { GiStarShuriken } from "react-icons/gi";
+import vector8 from "../assets/images/concious/Vector (8).png";
+import vector9 from "../assets/images/concious/Vector (9).png";
+import arrowicon from "../assets/images/concious/arrowIcon.png";
+import salad from "../assets/images/concious/salad.png";
+import tomato from "../assets/images/concious/tomato.png";
+import rectangle38 from "../assets/images/concious/Rectangle 38 (1).png";
+import rectangle39 from "../assets/images/concious/Rectangle 39 (1).png";
+import circleImg from "../assets/images/concious/circleimg.png";
 
 // eslint-disable-next-line react/prop-types
 const ConsciousItem = ({ images, title }) => {
@@ -15,54 +23,34 @@ const Concious = () => {
   const consciousItems = [
     {
       name: "Fruits",
-      images: [
-        "src/assets/images/concious/Vector (9).png",
-        "src/assets/images/concious/Vector (8).png",
-      ],
+      images: [{ vector9 }, { vector8 }],
     },
     {
       name: "Breads",
-      images: [
-        "src/assets/images/concious/Vector (9).png",
-        "src/assets/images/concious/Vector (8).png",
-      ],
+
+      images: [{ vector9 }, { vector8 }],
     },
     {
       name: "Juices",
-      images: [
-        "src/assets/images/concious/Vector (9).png",
-        "src/assets/images/concious/Vector (8).png",
-      ],
+      images: [{ vector9 }, { vector8 }],
     },
 
     {
       name: "Juices",
-      images: [
-        "src/assets/images/concious/Vector (9).png",
-        "src/assets/images/concious/Vector (8).png",
-      ],
+      images: [{ vector9 }, { vector8 }],
     },
 
     {
       name: "Vegetables",
-      images: [
-        "src/assets/images/concious/Vector (9).png",
-        "src/assets/images/concious/Vector (8).png",
-      ],
+      images: [{ vector9 }, { vector8 }],
     },
     {
       name: "Dried",
-      images: [
-        "src/assets/images/concious/Vector (9).png",
-        "src/assets/images/concious/Vector (8).png",
-      ],
+      images: [{ vector9 }, { vector8 }],
     },
     {
       name: "Dried",
-      images: [
-        "src/assets/images/concious/Vector (9).png",
-        "src/assets/images/concious/Vector (8).png",
-      ],
+      images: [{ vector9 }, { vector8 }],
     },
   ];
 
@@ -79,7 +67,7 @@ const Concious = () => {
         <div className="flex align-center justify-between ">
           <img
             className="w-[30%]  relative lg:rounded-xl"
-            src="src/assets/images/concious/salad.png"
+            src={salad}
             alt="Salad"
           />
           <p className="absolute  bg-white">
@@ -89,7 +77,7 @@ const Concious = () => {
 
           <img
             className="absolute ml-22 w-10 h-11 mx-2 bg-white   "
-            src="src/assets/images/concious/arrowIcon.png"
+            src={arrowicon}
             alt="Arrow"
           />
 
@@ -97,7 +85,7 @@ const Concious = () => {
             <div className="flex gap-4 w-full  rounded-2xl m-2  bg-lime-50">
               <img
                 className="w-[20%] h-[15vh] m-2"
-                src="src/assets/images/concious/circleimg.png"
+                src={circleImg}
                 alt="Circle"
               />
               <p className="m-4  $bg-color:#e9f4ca rounded-lg">
@@ -109,16 +97,8 @@ const Concious = () => {
             </div>
 
             <div className="flex justify-between w-full p-2 h-35 rounded-2xl mt-2  bg-amber-200 ">
-              <img
-                className="w-90 "
-                src="src/assets/images/concious/Rectangle 38 (1).png"
-                alt="Image 1"
-              />
-              <img
-                className="w-85"
-                src="src/assets/images/concious/Rectangle 39 (1).png"
-                alt="Image 2"
-              />
+              <img className="w-90" src={rectangle38} alt="Image 1" />
+              <img className="w-85" src={rectangle39} alt="Image 2" />
             </div>
 
             <div className="flex w-full  rounded-2xl h-35 mt-2 bg-lime-50">
@@ -132,11 +112,7 @@ const Concious = () => {
                 ))}
               </div>
               <div className="mr-10 ">
-                <img
-                  className=""
-                  src="src/assets/images/concious/tomato.png"
-                  alt="Tomato"
-                />
+                <img className="" src={tomato} alt="Tomato" />
               </div>
             </div>
             <button className="bg-amber-500  text-white rounded ml-60 ">

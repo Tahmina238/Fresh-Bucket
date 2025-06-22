@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+
 const Card = ({ backgroundColor, icon, title, description, imageSrc }) => {
   return (
     <div className="max-w-sm rounded relative overflow-hidden shadow-lg mb-4 bg-emerald-50">

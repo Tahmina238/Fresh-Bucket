@@ -1,3 +1,8 @@
+import strawberry from "../assets/images/bestOrganicImg/strawberry.png";
+import orange from "../assets/images/bestOrganicImg/orange.png";
+import tomato from "../assets/images/bestOrganicImg/tomato.png";
+import smile from "../assets/images/bestOrganicImg/smile.png";
+
 import { GiStarShuriken } from "react-icons/gi";
 import Card from "./Card";
 
@@ -26,23 +31,11 @@ const BestOrganicProducts = () => {
           bgColor="#F4F1D0"
           title="Organic Cabbage"
           description="$50"
-          imageSrc="src/assets/images/bestOrganicImg/tomato.png"
+          imageSrc={strawberry}
         />
-        <Card
-          title="Organic Orange"
-          description="$50"
-          imageSrc="src/assets/images/bestOrganicImg/orange.png"
-        />
-        <Card
-          title="Organic Cabbage"
-          description="$50"
-          imageSrc="src/assets/images/bestOrganicImg/tomato.png"
-        />
-        <Card
-          title="Organic Smile"
-          description="$50"
-          imageSrc="src/assets/images/bestOrganicImg/smile.png"
-        />
+        <Card title="Organic Orange" description="$50" imageSrc={orange} />
+        <Card title="Organic Tomato" description="$50" imageSrc={tomato} />
+        <Card title="Organic Smile" description="$50" imageSrc={smile} />
       </div>
     </div>
   );
