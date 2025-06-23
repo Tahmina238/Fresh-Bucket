@@ -1,8 +1,7 @@
-import strawberry from "../assets/images/bestOrganicImg/strawberry.png";
 import orange from "../assets/images/bestOrganicImg/orange.png";
 import tomato from "../assets/images/bestOrganicImg/tomato.png";
 import smile from "../assets/images/bestOrganicImg/smile.png";
-
+import strawberry from "../assets/images/bestOrganicImg/strawberry.png";
 import { GiStarShuriken } from "react-icons/gi";
 import Card from "./Card";
 
