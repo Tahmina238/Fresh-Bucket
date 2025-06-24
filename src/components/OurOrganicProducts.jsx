@@ -131,7 +131,7 @@ const OurOrganicProducts = () => {
           {/* Side Image */}
           <div className="hidden lg:block">
             <img
-              className="h-full mt-6 ml-20 "
+              className="h-full mt-6 ml-10 "
               src={vgcard}
               alt="Vegetable Card"
             />
