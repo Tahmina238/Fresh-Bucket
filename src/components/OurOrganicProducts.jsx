@@ -130,11 +130,7 @@ const OurOrganicProducts = () => {
 
           {/* Side Image */}
           <div className="hidden lg:block">
-            <img
-              className="h-[50vh] mt-6 mr-20"
-              src={vgcard}
-              alt="Vegetable Card"
-            />
+            <img className="h-[50vh] mt-6 " src={vgcard} alt="Vegetable Card" />
           </div>
         </div>
 
