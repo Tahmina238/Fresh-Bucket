@@ -116,7 +116,7 @@ const OurOrganicProducts = () => {
 
         {/* Product Grid */}
         <div className="flex flex-col lg:flex-row justify-between ">
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 ">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 ">
             {filteredProducts.map((item, index) => (
               <OrganicProductCard
                 key={index}
@@ -139,7 +139,7 @@ const OurOrganicProducts = () => {
         </div>
 
         {/* View More Button */}
-        <div className="flex justify-center mt-2">
+        <div className="flex justify-center mt-3 mx-auto">
           <button className="bg-emerald-500 text-white  mb-10 rounded-lg  hover:bg-emerald-600 transition">
             View More
           </button>

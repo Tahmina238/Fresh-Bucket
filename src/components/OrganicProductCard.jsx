@@ -2,7 +2,7 @@
 const OrganicProductCard = ({ title, price, rating, image }) => {
   return (
     //create dynamic card
-    <div className="flex align-center justify-between w-[17vw] rounded  h-[12vh] mt-6 bg-white border">
+    <div className="flex align-center justify-between w-70 rounded  h-24 mt-6 gap-6 bg-white border">
       <img className="w-24 h-18n" src={image} alt="" />
       <div className="m-0 pr-6 column justify-between mt-4">
         <p className="text-black ">{title}</p>

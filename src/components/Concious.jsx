@@ -15,7 +15,7 @@ const ConsciousItem = ({ images, title }) => {
     <div className="relative flex items-center gap-2">
       <img className="w-6 relative" src={images[0]} alt={title} />
       <img
-        className="w-5 ml-2 absolute left- top-4"
+        className="w-5 ml-2 absolute left- top-2"
         src={images[1]}
         alt={title}
       />
